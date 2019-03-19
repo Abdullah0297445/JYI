@@ -60,3 +60,7 @@ optional arguments: <br/> -h, --help show this help message and exit <br/> -i IN
 ###### Example input and output XLSX files have been added along with python script. <br/> This Script has been been tested on Windows 10 with Python 3.6.2 
 
 
+![](img/Example%20Usage.jpg)
+
+
+
