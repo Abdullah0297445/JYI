@@ -1,6 +1,9 @@
 # JYI
 
-This repository holds python script to scrape research journals from jyi.org and find which articles are most similar to each other.
+This repository holds python script to scrape research journals from jyi.org and find which articles are most similar to each other. <br/>
+Cosine similarity has been used to measure the similarity between articles. TF-IDF model has been used. 
+
+# About JYI
 
 JYI is a student-led initiative to broaden the undergraduate scientific experience, allowing students to participate in the scientific review and publication processes of its peer-reviewed undergraduate journal. Incorporated as a non-profit, student-run corporation, JYI represents over 50 different academic institutions from over half a dozen countries.
 
