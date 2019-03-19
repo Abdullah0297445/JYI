@@ -22,8 +22,8 @@ You can do that in 3 simple steps:
 2.Write 'python' in the prompt so a python environement will start.
 3.Write these two lines of code into the prompt. 
 
->>import nltk
->>nltk.download('all')
+>> import nltk
+>> nltk.download('all')
 
 Wait till download is finished.
 
@@ -51,15 +51,14 @@ Thats all for dependencies.
 usage: similarityscript.py [-h] [-i INPUTFILE] [-s SHEET] [-o OUTPUTFILE]
 
 optional arguments:
-  -h, --help            show this help message and exit
-  -i INPUTFILE, --inputfile INPUTFILE
-                        Specify the input xlsx file path. E.g.
-                        C:\user\downloads\Excel.xlsx
-  -s SHEET, --sheet SHEET
-                        Specify the sheet name in xlsx file. E.g. Dataset1
-  -o OUTPUTFILE, --outputfile OUTPUTFILE
-                        Specify the directory you want to save output xlsx
-                        file. E.g. C:\user\downloads\
+
+-h, --help            show this help message and exit
+-i INPUTFILE, --inputfile INPUTFILE
+Specify the input xlsx file path. E.g. C:\user\downloads\Excel.xlsx
+-s SHEET, --sheet SHEET
+Specify the sheet name in xlsx file. E.g. Dataset1
+-o OUTPUTFILE, --outputfile OUTPUTFILE
+Specify the directory you want to save output xlsx file. E.g. C:\user\downloads\
 
 
 # Example input and output XLSX files have been added along with python script.
