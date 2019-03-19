@@ -56,11 +56,14 @@ usage: similarityscript.py [-h] [-i INPUTFILE] [-s SHEET] [-o OUTPUTFILE]
 
 optional arguments: <br/> -h, --help show this help message and exit <br/> -i INPUTFILE, --inputfile INPUTFILE <br/> Specify the input xlsx file path. E.g. C:\user\downloads\Excel.xlsx <br/> -s SHEET, --sheet SHEET <br/> Specify the sheet name in xlsx file. E.g. Dataset1  <br/> -o OUTPUTFILE, --outputfile OUTPUTFILE <br/> Specify the directory you want to save output xlsx file. E.g. C:\user\downloads\
 
-
-###### Example input and output XLSX files have been added along with python script. <br/> This Script has been been tested on Windows 10 with Python 3.6.2 
-
-
 ![](img/Example%20Usage.jpg)
 
+<br/>
+If no input file is specified then this script tries to find a file named "input.xlsx" in script's directory- The current directory. <br/>
+If no sheet name is specified then "Dataset1" is considered as default sheet name of the input xlsx file. <br/>
+If no output path is specified then the output file is placed in the same folder as the script. <br/>
+<br/>
+
+###### Example input and output XLSX files have been added along with python script. <br/> This Script has been been tested on Windows 10 with Python 3.6.2 
 
 
