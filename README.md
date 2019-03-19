@@ -18,8 +18,8 @@ pip install nltk
 After installing nltk you have to download all the necessary text data it provides like stopwords etc.
 You can do that in 3 simple steps:
 
-1.Open CMD
-2.Write 'python' in the prompt so a python environement will start.
+1.Open CMD <br/>
+2.Write 'python' in the prompt so a python environement will start. <br/>
 3.Write these two lines of code into the prompt. 
 
 ```python
@@ -54,6 +54,6 @@ usage: similarityscript.py [-h] [-i INPUTFILE] [-s SHEET] [-o OUTPUTFILE]
 optional arguments: <br/> -h, --help show this help message and exit <br/> -i INPUTFILE, --inputfile INPUTFILE <br/> Specify the input xlsx file path. E.g. C:\user\downloads\Excel.xlsx <br/> -s SHEET, --sheet SHEET <br/> Specify the sheet name in xlsx file. E.g. Dataset1  <br/> -o OUTPUTFILE, --outputfile OUTPUTFILE <br/> Specify the directory you want to save output xlsx file. E.g. C:\user\downloads\
 
 
-###### Example input and output XLSX files have been added along with python script.
+###### Example input and output XLSX files have been added along with python script. <br/> This Script has been been tested on Windows 10 with Python 3.6.2 
 
 
